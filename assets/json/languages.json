@@ -1,0 +1,154 @@
+{
+  "WORDS_EN": {
+    "menu": {
+      "home": "Home",
+      "about": "About us",
+      "services": "Our Services",
+      "jobs": "Hot Jobs",
+      "contact": "Contact Us",
+      "location": "Our Location"
+    },
+    "home": {
+      "tag": "Staffing Power Your Success",
+      "title": "Your trusted partner in sourcing high-quality IT talent",
+      "description": "We connect companies with carefully vetted professionals who combine strong technical expertise with the right mindset. Whether you are looking for temporary support, project-based staffing, or permanent placements — we deliver fast and with precision.",
+      "discover": "Discover more",
+
+      "search_careers": "Search careers",
+      "successful_client": "Successful Client",
+      "team_ad": "Team Advisors",
+      "year_ex": "Years Experience",
+
+      "why_us": "Why Choose Us",
+      "choose_us": "Choose Excellence Elevate Your Hiring Experience",
+      "choose_us_description": "Our team of industry experts is dedicated to understanding your unique needs and delivering tailored solutions that propel your business forward.",
+      "choose_us_list1": "Range Of Services",
+      "choose_us_list2": "Professional Expertise",
+      "choose_us_list3": "Recourses",
+      "choose_us_list4": "Success Stories",
+      "about_us": "About Us",
+
+      "our_services": "Our Services",
+      "service_title": "Tailored Solutions for Your Hiring Needs",
+      "service_description": "With our proven track record and commitment to excellence, we're here to support your organization's growth and help you achieve your hiring goals.",
+      "service_1_title": "Executive Search Services",
+      "service_1_description": "Whether you're looking for temporary staffing, direct hire placements,",
+      "service_2_title": "HR Consulting & Staffing",
+      "service_2_description": "Whether you're looking for temporary staffing, direct hire placements,",
+      "service_3_title": "Temporary Staffing Services",
+      "service_3_description": "Whether you're looking for temporary staffing, direct hire placements,",
+      "get_started": "Let’s get started",
+
+      "recruitment_tech": "Recruitment Technologies",
+      "tech_title": "Solving Recruitment Using Technology",
+      "tech_description": "Whether you're seeking temporary assignments, placements, or executive-level positions, our curated",
+      "sourcing": "Sourcing the Best",
+      "sourcing_description": "Stay tuned for regular updates and valuable insights from our team of staffing experts.",
+      "volume": "Volume Hiring",
+      "volume_description": "Remember to keep your blog content informative, engaging, and relevant to your target audience",
+      "partners": "Partners in Team Building",
+      "partners_description": "This will help drive traffic to your website & establish your agency as a trusted authority",
+
+      "testimonial": "Testimonial",
+      "real_story": "Real Stories, Real Results",
+      "real_story_description": "We're proud to have helped countless companies find the right talent and achieve their business goals. Here's what some of our clients have to say about their experience with us.",
+      "story_1": "“But don't just take our word for it—hear what our satisfied clients have to say. From Fortune 500 companies to small”",
+      "story_2": "“Our dedication to excellence, and commitment to building long-lasting partnerships have”",
+      "story_3": "“But don't just take our word for it—hear what our satisfied clients have to say. From Fortune 500 companies to small”",
+      "story_4": "“Our dedication to excellence, and commitment to building long-lasting partnerships have”",
+
+      "get_in_touch": "Get in Touch Let's Start the Conversation",
+      "get_in_touch_description": "We're here to help you find the right staffing solutions for your needs. Whether you're a company looking to hire top talent or a candidate seeking your next career opportunity.",
+      "give_us_call": "Gives us a call",
+      "send_mail": "Send me Mail",
+      "send_message": "Send us a Message",
+      "free_to_reach": "Feel free to reach out to us with any questions, inquiries, or staffing requirements you may have. Our experienced",
+      "submit": "Submit Now",
+
+      "ready_to_power": "Ready to Power up your Savings and Reliability?",
+      "cta_description": "We're here to help you find the right staffing solutions for your needs. Whether you're a company looking to hire top talent or a candidate seeking your next career opportunity.",
+      "subscribe": "Subscribe Now"
+    },
+    "footer": {
+      "title": "Our goal is to demystify the process, address your concerns, and empower you with the knowledge to embark.",
+      "explore": "Explore",
+      "contact": "Contact Us"
+    }
+  },
+  "WORDS_DU": {
+    "menu": {
+      "home": "Home",
+      "about": "Over ons",
+      "services": "Onze Diensten",
+      "jobs": "Hete Vacatures",
+      "contact": "Neem Contact Op",
+      "location": "Onze Locatie"
+    },
+    "home": {
+      "tag": "Personeelskracht voor Uw Succes",
+      "title": "Uw vertrouwde partner in het vinden van hoogwaardig IT-talent",
+      "description": "Wij verbinden bedrijven met zorgvuldig gescreende professionals die sterke technische expertise combineren met de juiste mentaliteit. Of u nu op zoek bent naar tijdelijke ondersteuning, projectmatige inzet of permanente plaatsingen — wij leveren snel en nauwkeurig.",
+      "discover": "Ontdek meer",
+
+      "search_careers": "Zoek carrières",
+      "successful_client": "Succesvolle Klant",
+      "team_ad": "Team Adviseurs",
+      "year_ex": "Jaren Ervaring",
+
+      "why_us": "Waarom Kiezen Voor Ons",
+      "choose_us": "Kies Uitmuntendheid Verhoog Uw Wervingservaring",
+      "choose_us_description": "Ons team van branche-experts is toegewijd aan het begrijpen van uw unieke behoeften en het leveren van op maat gemaakte oplossingen die uw bedrijf vooruit helpen.",
+      "choose_us_list1": "Reeks Diensten",
+      "choose_us_list2": "Professionele Expertise",
+      "choose_us_list3": "Middelen",
+      "choose_us_list4": "Succesverhalen",
+      "about_us": "Over Ons",
+
+      "our_services": "Onze Diensten",
+      "service_title": "Op Maat Gemaakte Oplossingen Voor Uw Wervingsbehoeften",
+      "service_description": "Met onze bewezen staat van dienst en toewijding aan uitmuntendheid ondersteunen we de groei van uw organisatie en helpen we u uw wervingsdoelen te bereiken.",
+      "service_1_title": "Executive Search Diensten",
+      "service_1_description": "Of u nu op zoek bent naar tijdelijke krachten, directe aanstellingen,",
+      "service_2_title": "HR-Consulting & Personeelswerving",
+      "service_2_description": "Of u nu op zoek bent naar tijdelijke krachten, directe aanstellingen,",
+      "service_3_title": "Tijdelijke Personeelsdiensten",
+      "service_3_description": "Of u nu op zoek bent naar tijdelijke krachten, directe aanstellingen,",
+      "get_started": "Laten we beginnen",
+
+      "recruitment_tech": "Wervingstechnologieën",
+      "tech_title": "Werving Oplossen met Technologie",
+      "tech_description": "Of u nu op zoek bent naar tijdelijke opdrachten, plaatsingen of topposities, onze geselecteerde",
+      "sourcing": "De Beste Werven",
+      "sourcing_description": "Blijf op de hoogte van regelmatige updates en waardevolle inzichten van ons team van wervingsexperts.",
+      "volume": "Massale Werving",
+      "volume_description": "Onthoud om uw bloginhoud informatief, boeiend en relevant te houden voor uw doelgroep",
+      "partners": "Partners in Teamopbouw",
+      "partners_description": "Dit helpt verkeer naar uw website te leiden en uw bureau te vestigen als een betrouwbare autoriteit",
+
+      "testimonial": "Getuigenis",
+      "real_story": "Echte Verhalen, Echte Resultaten",
+      "real_story_description": "We zijn er trots op talloze bedrijven te hebben geholpen bij het vinden van het juiste talent en het bereiken van hun zakelijke doelen. Dit is wat sommige van onze klanten te zeggen hebben over hun ervaring met ons.",
+      "story_1": "“Maar neem ons woord niet zomaar aan—hoor wat onze tevreden klanten te zeggen hebben. Van Fortune 500-bedrijven tot kleine”",
+      "story_2": "“Onze toewijding aan uitmuntendheid en de inzet voor het opbouwen van langdurige partnerschappen hebben”",
+      "story_3": "“Maar neem ons woord niet zomaar aan—hoor wat onze tevreden klanten te zeggen hebben. Van Fortune 500-bedrijven tot kleine”",
+      "story_4": "“Onze toewijding aan uitmuntendheid en de inzet voor het opbouwen van langdurige partnerschappen hebben”",
+
+      "get_in_touch": "Neem Contact Op Laten We Het Gesprek Beginnen",
+      "get_in_touch_description": "We zijn hier om u te helpen de juiste personeelsoplossingen te vinden voor uw behoeften. Of u nu een bedrijf bent dat op zoek is naar top talent of een kandidaat die zijn volgende carrièrekans zoekt.",
+      "give_us_call": "Bel Ons",
+      "send_mail": "Stuur ons een Mail",
+      "send_message": "Stuur ons een Bericht",
+      "free_to_reach": "Aarzel niet om contact met ons op te nemen met vragen, verzoeken of personeelsbehoeften die u mogelijk heeft. Onze ervaren",
+      "submit": "Dien Nu In",
+
+      "ready_to_power": "Klaar om Uw Besparingen en Betrouwbaarheid te Versterken?",
+      "cta_description": "We zijn hier om u te helpen de juiste personeelsoplossingen te vinden voor uw behoeften. Of u nu een bedrijf bent dat op zoek is naar top talent of een kandidaat die zijn volgende carrièrekans zoekt.",
+      "subscribe": "Abonneer Nu"
+    },
+    "footer": {
+      "title": "Ons doel is om het proces te demystificeren, uw zorgen aan te pakken en u de kennis te geven om te beginnen.",
+      "explore": "Verkennen",
+      "contact": "Neem Contact Op"
+    }
+  }
+}
