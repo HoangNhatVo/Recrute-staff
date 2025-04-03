@@ -63,13 +63,13 @@
           <div class="header-elements">
             <div class="site-logo">
               <a href="index.html">
-                <img src="assets/img/logo/header-logo1.png" alt="" />
+                <img src="assets/img/logo/logo.png" alt="" />
               </a>
             </div>
 
             <div class="main-menu-ex main-menu-ex1">
               <ul>
-                <li><a href="#" lang="lang-menu-home">Home</a></li>
+                <li><a href="index.html" lang="lang-menu-home">Home</a></li>
 
                 <li class="dropdown-menu-parrent">
                   <a
@@ -86,8 +86,6 @@
                   </a>
                 </li>
 
-                <!-- <li class="dropdown-menu-parrent"><a class="main1" href="#">Project </a>
-              </li> -->
                 <li class="dropdown-menu-parrent">
                   <a
                     href="job-post.html"
@@ -113,7 +111,10 @@
                 class="form-select"
                 id="country_select"
                 onchange="loadsLanguage(this.value);"
-              ></select>
+              >
+                <option value="EN">English</option>
+                <option value="DU">Dutch</option>
+              </select>
             </div>
           </div>
         </div>
@@ -130,7 +131,7 @@
       <div class="mobile-header-elements">
         <div class="mobile-logo">
           <a href="index1.html"
-            ><img src="assets/img/logo/header-logo1.png" alt=""
+            ><img src="assets/img/logo/logo.png" alt=""
           /></a>
         </div>
         <div class="d-flex gap-1">
@@ -150,7 +151,7 @@
 <div class="mobile-sidebar d-block d-lg-none">
   <div class="logo-m">
     <a href="index.html"
-      ><img src="assets/img/logo/header-logo1.png" alt=""
+      ><img src="assets/img/logo/logo.png" alt=""
     /></a>
   </div>
   <div class="menu-close">
@@ -243,7 +244,12 @@
                 <div class="row">
                     <div class="col-lg-6 m-auto text-center">
                         <div class="main-heading">
-                            <h1>About Us</h1>
+                            <h1 lang="lang-menu-about">About Us</h1>
+                            <div class="pages-intro">
+                              <a href="index.html" lang="lang-menu-home">Home </a>
+                              <span><i class="fa-regular fa-angle-right"></i></span>
+                              <p lang="lang-menu-about">About Us</p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -265,14 +271,14 @@
                               </div>
                               <div class="conter-box conter-box1" data-aos="zoom-out" data-aos-duration="700">
                                 <h3><span class="counter">10 & 200+</span></h3>
-                                <p>Projects & Talents</p>
+                                <p lang="lang-about-project">Projects & Talents</p>
                               </div>
                             </div>
         
                             <div class="col-lg-6">
                               <div class="conter-box conter-box2" data-aos="zoom-out" data-aos-duration="700">
                                 <h3><span class="counter">6</span>+</h3>
-                                <p>Years of Experienced</p>
+                                <p lang="lang-about-exp">Years of Experienced</p>
                               </div>
                               <div class="image reveal overlay-anim">
                                 <img src="assets/img/images/pretty-asian-woman-with-tablet-office.jpg" alt="">
@@ -285,10 +291,10 @@
         
                       <div class="col-lg-6">
                         <div class="heading3 about3-heading">
-                          <span class="span" data-aos="zoom-in-left" data-aos-duration="700">About Us</span>
-                          <h2 class="text-anime-style-3">Our Story Connecting Talent, Powering Success</h2>
+                          <span class="span" data-aos="zoom-in-left" data-aos-duration="700" lang="lang-about-about_us">About Us</span>
+                          <h2 class="text-anime-style-3" lang="lang-about-our_story">Our Story Connecting Talent, Powering Success</h2>
                           <div class="space16"></div>
-                          <p data-aos="fade-left" data-aos-duration="700">Our team of industry experts is dedicated to understanding your unique needs and delivering tailored solutions that propel your business forward.</p>
+                          <p data-aos="fade-left" data-aos-duration="700" lang="lang-about-our_team">Our team of industry experts is dedicated to understanding your unique needs and delivering tailored solutions that propel your business forward.</p>
         
                           <div class="about3-icon-box" data-aos="fade-left" data-aos-duration="900">
                             <div class="">
@@ -297,8 +303,8 @@
                               </div>
                             </div>
                             <div class="heading3">
-                              <h5><a href="service.html">Empowering Careers, Driving Growth</a></h5>
-                              <p>we are your strategic partner in talent acquisition. With a steadfast commitment to excellence</p>
+                              <h5><a href="service.html" lang="lang-about-empower">Empowering Careers, Driving Growth</a></h5>
+                              <p lang="lang-about-strategic_partner">we are your strategic partner in talent acquisition. With a steadfast commitment to excellence</p>
                             </div>
                           </div>
         
@@ -309,8 +315,8 @@
                               </div>
                             </div>
                             <div class="heading3">
-                              <h5><a href="service.html">Leaders in Staffing Excellence</a></h5>
-                              <p>Discover the difference with Your Agency Name and unlock new possibilities for growth </p>
+                              <h5><a href="service.html" lang="lang-about-leader">Leaders in Staffing Excellence</a></h5>
+                              <p lang="lang-about-discover">Discover the difference with Your Agency Name and unlock new possibilities for growth </p>
                             </div>
                           </div>
       
@@ -330,10 +336,10 @@
                     <div class="row">
                       <div class="col-lg-7 m-auto text-center">
                         <div class="heading1">
-                          <span class="span">Our Mission</span>
-                          <h2>Success Our Guiding Mission</h2>
+                          <span class="span" lang="lang-about-mission">Our Mission</span>
+                          <h2 lang="lang-about-mission_title">Success Our Guiding Mission</h2>
                           <div class="space16"></div>
-                          <p> We believe that by connecting talented professionals with leading companies, we can create opportunities for growth, innovation</p>
+                          <p lang="lang-about-mission_description"> We believe that by connecting talented professionals with leading companies, we can create opportunities for growth, innovation</p>
                         </div>
                       </div>
                     </div>
@@ -346,9 +352,9 @@
                             <img src="assets/img/icons/mission-icon1.png" alt="">
                           </div>
                           <div class="heading1">
-                            <h5><a href="#">Connecting Talent Opportunity</a></h5>
+                            <h5><a href="#" lang="lang-about-mission_1_title">Connecting Talent Opportunity</a></h5>
                             <div class="space16"></div>
-                            <p>With a focus integrity, collaboration, and personalized service, we strive</p>
+                            <p lang="lang-about-mission_1_description">With a focus integrity, collaboration, and personalized service, we strive</p>
                           </div>
                         </div>
                       </div>
@@ -359,9 +365,9 @@
                             <img src="assets/img/icons/mission-icon2.png" alt="">
                           </div>
                           <div class="heading1">
-                            <h5><a href="#">Careers, Elevating Businesses</a></h5>
+                            <h5><a href="#" lang="lang-about-mission_2_title">Careers, Elevating Businesses</a></h5>
                             <div class="space16"></div>
-                            <p>Our commitment excellence guides everything we do ,understanding </p>
+                            <p lang="lang-about-mission_2_description">Our commitment excellence guides everything we do ,understanding </p>
                           </div>
                         </div>
                       </div>
@@ -372,9 +378,9 @@
                             <img src="assets/img/icons/mission-icon1.png" alt="">
                           </div>
                           <div class="heading1">
-                            <h5><a href="#"> Driving Success Together</a></h5>
+                            <h5><a href="#" lang="lang-about-mission_3_title"> Driving Success Together</a></h5>
                             <div class="space16"></div>
-                            <p> DWe believe that connecting talented professionals leading companies</p>
+                            <p lang="lang-about-mission_3_description"> We believe that connecting talented professionals leading companies</p>
                           </div>
                         </div>
                       </div>
@@ -389,7 +395,7 @@
 
              <!--=====TESTIMONIAL AREA START=======-->
 
-             <div class="tes3 sp">
+             <!-- <div class="tes3 sp">
               <div class="container">
                 <div class="row align-items-center">
                   <div class="col-lg-6">
@@ -427,9 +433,6 @@
                             </div>
                           </div>
                           <div class="bottom-heading">
-                            <!-- <div class="image" style="width: 80px;height: 80px;">
-                              <img src="assets/img/images/asian-man-isolated-expressing-emotions.jpg" alt="">
-                            </div> -->
                             <div class="heading3">
                               <h4><a href="#">Junaid Hasan</a></h4>
                             <p>Vp,Daily Naws</p>
@@ -451,9 +454,6 @@
                         </div>
                       </div>
                       <div class="bottom-heading">
-                        <!-- <div class="image">
-                          <img src="assets/img/testimonial/tes3-img2.png" alt="">
-                        </div> -->
                         <div class="heading3">
                           <h4><a href="#">Amir Jamil</a></h4>
                         <p>Co Funder</p>
@@ -475,9 +475,6 @@
                     </div>
                   </div>
                   <div class="bottom-heading">
-                    <!-- <div class="image">
-                      <img src="assets/img/testimonial/tes3-img1.png" alt="">
-                    </div> -->
                     <div class="heading3">
                       <h4><a href="#">Junaid Hasan</a></h4>
                     <p>Vp,Daily Naws</p>
@@ -499,9 +496,6 @@
                 </div>
               </div>
               <div class="bottom-heading">
-                <!-- <div class="image">
-                  <img src="assets/img/testimonial/tes3-img2.png" alt="">
-                </div> -->
                 <div class="heading3">
                   <h4><a href="#">Amir Jamil</a></h4>
                 <p>Co Funder</p>
@@ -513,7 +507,7 @@
                   </div>
                 </div>
               </div>
-            </div>
+            </div> -->
 
       <!--=====TESTIMONIAL AREA END=======-->
 
@@ -526,19 +520,27 @@
                 <div class="row cta-border align-items-center">
                   <div class="col-lg-6">
                     <div class="heading1-w">
-                      <h2>Ready to Power up your Savings and Reliability?</h2>
+                      <h2 lang="lang-home-ready_to_power">
+                        Ready to Power up your Savings and Reliability?
+                      </h2>
                       <div class="space16"></div>
-                      <p>Feel free to customize this paragraph to better reflect the <br> specific services offered by your IT solution & the unique </p>
+                      <p lang="lang-home-cta_description">
+                        Feel free to customize this paragraph to better reflect the
+                        specific services offered by your IT solution & the unique
+                      </p>
                     </div>
                   </div>
-
+        
                   <div class="col-lg-6">
                     <div class="subscribe-area">
                       <form action="#">
-                            <input type="email" placeholder="Email Address">
-                          <div class="button">
-                            <button type="submit" class="theme-btn1">Subscribe Now <span><i class="fa-solid fa-arrow-right"></i></span></button>
-                          </div>
+                        <input type="email" placeholder="Email Address" />
+                        <div class="button">
+                          <button type="submit" class="theme-btn1" lang="lang-home-subscribe">
+                            Subscribe Now
+                            <span><i class="fa-solid fa-arrow-right"></i></span>
+                          </button>
+                        </div>
                       </form>
                     </div>
                   </div>
@@ -557,7 +559,7 @@
                     <div class="single-footer-items footer-logo-area">
                       <div class="footer-logo">
                         <a href=""
-                          ><img src="assets/img/logo/footer-logo1.png" alt=""
+                          ><img src="assets/img/logo/logo.png" alt=""
                         /></a>
                       </div>
                       <div class="space20"></div>
@@ -590,9 +592,17 @@
         
                       <ul class="menu-list">
                         <li><a lang="lang-menu-home" href="index.html">Home </a></li>
-                        <li><a href="about.html" lang="lang-menu-about">About Us</a></li>
-                        <li><a href="service.html" lang="lang-menu-services">Our Services</a></li>
-                        <li><a href="testimonial.html" lang="lang-menu-jobs">Hot Jobs</a></li>
+                        <li>
+                          <a href="about.html" lang="lang-menu-about">About Us</a>
+                        </li>
+                        <li>
+                          <a href="service.html" lang="lang-menu-services"
+                            >Our Services</a
+                          >
+                        </li>
+                        <li>
+                          <a href="testimonial.html" lang="lang-menu-jobs">Hot Jobs</a>
+                        </li>
                       </ul>
                     </div>
                   </div>

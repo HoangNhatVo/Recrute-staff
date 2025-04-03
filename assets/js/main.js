@@ -1,8 +1,4 @@
 (function ($) {
-  let LanguageList = {
-    EN: 'English',
-    DU: 'Dutch'
-  };
   fetch('./assets/json/languages.json')
     .then((response) => response.json())
     .then((data) => {
@@ -13,6 +9,7 @@
   function loadsLanguage(lang) {
     localStorage.setItem('lang', lang);
     $('#country_select').val(lang);
+    $('#country_select_mobile').val(lang);
     /*fills all tags with class=lang pattern*/
     $('[lang^="lang"]').each(function () {
       let LangVar = $(this).attr('lang').replace('lang-', '');
@@ -21,14 +18,31 @@
       $(this).text(Text);
     });
   }
+  emailjs.init('RHh6uZjLf3ET9KgWa');
   $(document).ready(function () {
+    document
+      .getElementById('contact-form')
+      ?.addEventListener('submit', function (event) {
+        event.preventDefault();
+        // these IDs from the previous steps
+        emailjs.sendForm('service_u6aumwj', 'template_9nfdevk', this).then(
+          () => {
+            console.log('SUCCESS!');
+          },
+          (error) => {
+            console.log('FAILED...', error);
+          }
+        );
+      });
     var $dropdown = $('#country_select');
+
     // Initialize the language loader with the default language
-    $.each(LanguageList, function (key, value) {
-      $dropdown.append($('<option/>').val(key).text(value));
-    });
+    // $.each(LanguageList, function (key, value) {
+    //   $dropdown.append($('<option/>').val(key).text(value));
+    // });
     const savedLang = localStorage.getItem('lang') || 'EN';
     $dropdown.val(savedLang);
+    $('#country_select_mobile').val(savedLang);
     // sticky header active
     if ($('#header').length > 0) {
       $(window).on('scroll', function (event) {
