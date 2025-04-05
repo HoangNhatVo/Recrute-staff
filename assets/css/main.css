@@ -1,6 +1,6 @@
 /*
 ============================
-Name:  Recrute - Staffing Agency HTML Template
+Name:  Global Hire - Staffing Agency HTML Template
 Version: 2.0.1
 Description:
 Author:  VikingLab
@@ -9905,9 +9905,9 @@ body.body {
 
 .loading-container,
 .loading {
-  height: 100px;
+  height: 150px;
   position: relative;
-  width: 100px;
+  width: 150px;
   border-radius: 100%;
 }
 
@@ -9980,7 +9980,7 @@ body.body {
   position: absolute;
   top: 50%;
   left: 50%;
-  max-width: 66px;
+  max-width: 100px;
   transform: translate(-50%, -50%);
 }
 
@@ -16849,13 +16849,13 @@ body.body {
 }
 
 .site-logo {
-  max-width: 100px;
+  max-width: 150px;
   height: auto;
   display: flex;
   align-items: center;
 }
 .mobile-logo {
-  max-width: 70px;
+  max-width: 120px;
 }
 .footer-logo {
   max-width: 200px;
@@ -20824,6 +20824,7 @@ li.has-dropdown1 span {
 +++++++++++++++++++++++++++++++++
 */
 .mobile-sidebar .logo-m {
+  width: 200px;
   margin-top: -40px;
   margin-bottom: 30px;
 }

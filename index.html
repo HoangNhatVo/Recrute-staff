@@ -3,12 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Recrute - Staffing Agency</title>
+    <title>Global Hire - Staffing Agency</title>
 
     <!--=====FAB ICON=======-->
     <link
       rel="shortcut icon"
-      href="assets/img/logo/titel1.png"
+      href="assets/img/logo/Logo.png"
       type="image/x-icon"
     />
 
@@ -32,7 +32,7 @@
       <div class="loading-container">
         <div class="loading"></div>
         <div id="loading-icon">
-          <img src="assets/img/logo/titel1.png" alt="" />
+          <img src="assets/img/logo/Logo.png" alt="" />
         </div>
       </div>
     </div>
@@ -67,7 +67,7 @@
               <div class="header-elements">
                 <div class="site-logo">
                   <a href="index.html">
-                    <img src="assets/img/logo/logo.png" alt="" />
+                    <img src="assets/img/logo/Logo.png" alt="" />
                   </a>
                 </div>
 
@@ -118,6 +118,10 @@
                   >
                     <option value="EN">English</option>
                     <option value="DU">Dutch</option>
+                    <option value="EN">English</option>
+                    <option value="DU">Dutch</option>
+                    <option value="GE">Germany</option>
+                    <option value="FE">French</option>
                   </select>
                 </div>
               </div>
@@ -135,13 +139,18 @@
           <div class="mobile-header-elements">
             <div class="mobile-logo">
               <a href="index1.html"
-                ><img src="assets/img/logo/logo.png" alt=""
+                ><img src="assets/img/logo/Logo.png" alt=""
               /></a>
             </div>
             <div class="d-flex gap-1">
-              <select id="country_select_mobile" onchange="loadsLanguage(this.value)">
+              <select
+                id="country_select_mobile"
+                onchange="loadsLanguage(this.value)"
+              >
                 <option value="EN">🇺🇸</option>
                 <option value="DU">🇳🇱</option>
+                <option value="GE">🇩🇪</option>
+                <option value="FE">🇫🇷</option>
               </select>
               <div class="mobile-nav-icon">
                 <i class="fa-duotone fa-bars-staggered"></i>
@@ -154,9 +163,7 @@
 
     <div class="mobile-sidebar d-block d-lg-none">
       <div class="logo-m">
-        <a href="index.html"
-          ><img src="assets/img/logo/logo.png" alt=""
-        /></a>
+        <a href="index.html"><img src="assets/img/logo/Logo.png" alt="" /></a>
       </div>
       <div class="menu-close">
         <i class="fa-solid fa-xmark"></i>
@@ -532,7 +539,7 @@
                 class="span"
                 data-aos="zoom-in-left"
                 data-aos-duration="700"
-                >Our Service
+                >Our Services
               </span>
               <h2 class="text-anime-style-3" lang="lang-home-service_title">
                 Tailored Solutions for Your Hiring Needs
@@ -575,12 +582,12 @@
                   <h4>
                     <a
                       href="service-details.html"
-                      lang="lang-home-service_1_title"
-                      >Executive Search Services</a
+                      lang="lang-service-IT-title"
+                      >IT-professionals</a
                     >
                   </h4>
                   <div class="space16"></div>
-                  <p lang="lang-home-service_1_description">
+                  <p lang="lang-service-it_description">
                     Whether you're looking for temporary staffing, direct hire
                     placements,
                   </p>
@@ -610,12 +617,12 @@
                   <h4>
                     <a
                       href="service-details.html"
-                      lang="lang-home-service_2_title"
-                      >HR Consulting & Staffing</a
+                      lang="lang-service-hotel_title"
+                      >HoReCa</a
                     >
                   </h4>
                   <div class="space16"></div>
-                  <p lang="lang-home-service_2_description">
+                  <p lang="lang-service-hotel_description">
                     Whether you're looking for temporary staffing, direct hire
                     placements,
                   </p>
@@ -645,12 +652,12 @@
                   <h4>
                     <a
                       href="service-details.html"
-                      lang="lang-home-service_3_title"
-                      >Temporary Staffing Services</a
+                      lang="lang-service-construction_title"
+                      >Construction</a
                     >
                   </h4>
                   <div class="space16"></div>
-                  <p lang="lang-home-service_3_description">
+                  <p lang="lang-service-construction_description">
                     Whether you're looking for temporary staffing, direct hire
                     placements,
                   </p>
@@ -669,8 +676,8 @@
               <a
                 class="theme-btn3"
                 href="service.html"
-                lang="lang-home-get_started"
-                >Let’s get started
+                lang="lang-home-see_more"
+                >See More
                 <span><i class="fa-solid fa-arrow-right"></i></span
               ></a>
             </div>
@@ -1021,7 +1028,9 @@
                   </div>
                   <div class="heading">
                     <p lang="lang-home-send_mail">Send me Mail</p>
-                    <a href="mailto:recrute@hotmail.com">recrute@hotmail.com</a>
+                    <a href="mailto:Global Hire@hotmail.com"
+                      >Global Hire@hotmail.com</a
+                    >
                   </div>
                 </div>
               </div>
@@ -1048,25 +1057,45 @@
                 <div class="row">
                   <div class="col-md-6">
                     <div class="single-input">
-                      <input type="text" placeholder="First Name" name="first_name" required/>
+                      <input
+                        type="text"
+                        placeholder="First Name"
+                        name="first_name"
+                        required
+                      />
                     </div>
                   </div>
 
                   <div class="col-md-6">
                     <div class="single-input">
-                      <input type="text" placeholder="Last Name" name="last_name" required/>
+                      <input
+                        type="text"
+                        placeholder="Last Name"
+                        name="last_name"
+                        required
+                      />
                     </div>
                   </div>
 
                   <div class="col-md-6">
                     <div class="single-input">
-                      <input type="email" placeholder="Email" name="email" required/>
+                      <input
+                        type="email"
+                        placeholder="Email"
+                        name="email"
+                        required
+                      />
                     </div>
                   </div>
 
                   <div class="col-md-6">
                     <div class="single-input">
-                      <input type="number" placeholder="Phone" name="phone" required/>
+                      <input
+                        type="number"
+                        placeholder="Phone"
+                        name="phone"
+                        required
+                      />
                     </div>
                   </div>
 
@@ -1117,7 +1146,11 @@
               <form action="#">
                 <input type="email" placeholder="Email Address" />
                 <div class="button">
-                  <button type="submit" class="theme-btn1" lang="lang-home-subscribe">
+                  <button
+                    type="submit"
+                    class="theme-btn1"
+                    lang="lang-home-subscribe"
+                  >
                     Subscribe Now
                     <span><i class="fa-solid fa-arrow-right"></i></span>
                   </button>
@@ -1139,9 +1172,7 @@
           <div class="col-lg-4 col-md-6 col-12">
             <div class="single-footer-items footer-logo-area">
               <div class="footer-logo">
-                <a href=""
-                  ><img src="assets/img/logo/logo.png" alt=""
-                /></a>
+                <a href=""><img src="assets/img/logo/Logo.png" alt="" /></a>
               </div>
               <div class="space20"></div>
               <div class="heading1-w">
@@ -1233,7 +1264,7 @@
           <div class="row align-items-center">
             <div class="col-md-12">
               <div class="coppyright">
-                <p>© Copyright 2024 -Recrute. All Right Reserved</p>
+                <p>© Copyright 2024 -Global Hire. All Right Reserved</p>
               </div>
             </div>
           </div>
