@@ -18,16 +18,30 @@
       $(this).text(Text);
     });
   }
-  emailjs.init('RHh6uZjLf3ET9KgWa');
+  emailjs.init('zzWmcxOnIDk3EoPkJ');
   $(document).ready(function () {
     document
       .getElementById('contact-form')
       ?.addEventListener('submit', function (event) {
         event.preventDefault();
+        const submitButton = this.querySelector('#submit-button');
+
+        submitButton.disabled = true;
+        submitButton.innerHTML = 'Submitting... <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>';
         // these IDs from the previous steps
-        emailjs.sendForm('service_u6aumwj', 'template_9nfdevk', this).then(
+        emailjs.sendForm('service_86lo5hw', 'template_rb8f669', this).then(
           () => {
             console.log('SUCCESS!');
+            const popup = document.getElementById('success-popup');
+            popup.classList.remove('hidden');
+    
+            // Close the pop-up when the close button is clicked
+            document.getElementById('close-popup').addEventListener('click', () => {
+              popup.classList.add('hidden');
+            });
+            this.reset();
+            submitButton.disabled = false;
+            submitButton.innerHTML = 'Submit Now';
           },
           (error) => {
             console.log('FAILED...', error);
