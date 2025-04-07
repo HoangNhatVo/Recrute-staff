@@ -20,9 +20,8 @@
   }
   emailjs.init('zzWmcxOnIDk3EoPkJ');
   $(document).ready(function () {
-    document
-      .getElementById('contact-form')
-      ?.addEventListener('submit', function (event) {
+    const form = document.getElementById('contact-form') || document.getElementById('subscribe-form');
+    form?.addEventListener('submit', function (event) {
         event.preventDefault();
         const submitButton = this.querySelector('#submit-button');
 

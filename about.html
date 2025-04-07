@@ -137,9 +137,14 @@
           /></a>
         </div>
         <div class="d-flex gap-1">
-          <select id="country_select" onchange="loadsLanguage(this.value)">
+          <select
+            id="country_select_mobile"
+            onchange="loadsLanguage(this.value)"
+          >
             <option value="EN">🇺🇸</option>
             <option value="DU">🇳🇱</option>
+            <option value="GE">🇩🇪</option>
+            <option value="FE">🇫🇷</option>
           </select>
           <div class="mobile-nav-icon">
             <i class="fa-duotone fa-bars-staggered"></i>
@@ -526,24 +531,30 @@
                         Ready to Power up your Savings and Reliability?
                       </h2>
                       <div class="space16"></div>
-                      <p lang="lang-home-cta_description">
+                      <!-- <p lang="lang-home-cta_description">
                         Feel free to customize this paragraph to better reflect the
                         specific services offered by your IT solution & the unique
-                      </p>
+                      </p> -->
                     </div>
                   </div>
         
                   <div class="col-lg-6">
                     <div class="subscribe-area">
-                      <form action="#">
+                      <form action="#" id="subscribe-form">
                         <input type="email" placeholder="Email Address" />
                         <div class="button">
-                          <button type="submit" class="theme-btn1" lang="lang-home-subscribe">
+                          <button type="submit" id="submit-button" class="theme-btn1">
                             Subscribe Now
                             <span><i class="fa-solid fa-arrow-right"></i></span>
                           </button>
                         </div>
                       </form>
+                      <div id="success-popup" class="popup hidden">
+                        <div class="popup-content">
+                          <p>Form submitted successfully!</p>
+                          <button id="close-popup">Close</button>
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
