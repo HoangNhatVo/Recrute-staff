@@ -9013,7 +9013,7 @@ body.body {
 
 .common-hero {
   background-color: var(--vtc-bg-common-bg2);
-  height: 350px;
+  height: 250px;
   display: flex;
   align-items: center;
 }
@@ -20995,6 +20995,9 @@ li.has-dropdown1 span {
 
 .popup-content button:hover {
   background: #000;
+}
+.font-bold {
+  font-weight: 700;
 }
 /*
 ::::::::::::::::::::::::::
