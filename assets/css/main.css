@@ -15552,6 +15552,7 @@ body.body {
   margin-bottom: 16px;
 }
 .footer1 .single-footer-items .contact-box .icon {
+  min-width: 30px;
   height: 30px;
   width: 30px;
   text-align: center;
