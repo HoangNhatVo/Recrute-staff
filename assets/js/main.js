@@ -10,6 +10,11 @@
     localStorage.setItem('lang', lang);
     $('#country_select').val(lang);
     $('#country_select_mobile').val(lang);
+    $('[data-placeholder-key]').each(function () {
+      const placeholderKey = $(this).data('placeholder-key');
+      const placeholderText = window.LANGUAGE_DATA['WORDS_' + lang]['placeholders'][placeholderKey];
+      $(this).attr('placeholder', placeholderText);
+    });
     /*fills all tags with class=lang pattern*/
     $('[lang^="lang"]').each(function () {
       let LangVar = $(this).attr('lang').replace('lang-', '');

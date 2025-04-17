@@ -1,5 +1,11 @@
 {
   "WORDS_EN": {
+    "placeholders": {
+      "name": "Full name",
+      "email": "Email",
+      "phone": "Phone",
+      "question": "Questions"
+    },
     "menu": {
       "home": "Home",
       "about": "About us",
@@ -172,6 +178,12 @@
     }
   },
   "WORDS_DU": {
+    "placeholders": {
+      "name": "Volledige naam",
+      "email": "Email",
+      "phone": "Telefoonnummer",
+      "question": "Vragen"
+    },
     "menu": {
       "home": "Home",
       "about": "Over ons",
@@ -337,6 +349,12 @@
     }
   },
   "WORDS_GE": {
+    "placeholders": {
+      "name": "Vollständiger Name",
+      "email": "E-Mail",
+      "phone": "Telefonnummer",
+      "question": "Fragen"
+    },
     "menu": {
       "home": "Startseite",
       "about": "Über uns",
@@ -502,6 +520,12 @@
     }
   },
   "WORDS_FE": {
+    "placeholders": {
+      "name": "Full Name",
+      "email": "Email",
+      "phone": "Phone Number",
+      "question": "Questions"
+    },
     "menu": {
       "home": "Accueil",
       "about": "À propos de nous",
