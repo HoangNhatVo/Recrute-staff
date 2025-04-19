@@ -68,7 +68,10 @@
 
       "ready_to_power": "Ready to Power up your Savings and Reliability?",
       "cta_description": "Feel free to customize this paragraph to better reflect the specific services offered by your IT solution & the unique",
-      "subscribe": "Subscribe Now"
+      "subscribe": "Subscribe Now",
+
+      "form_submit_success": "Form submitted successfully",
+      "close": "Close"
     },
     "service": {
       "intro": "Success starts with the right match",
@@ -239,7 +242,10 @@
       "submit": "Verzenden",
       "ready_to_power": "Klaar om uw Besparingen en Betrouwbaarheid te Vergroten?",
       "cta_description": "Voel u vrij om deze alinea aan te passen om de specifieke diensten van uw IT-oplossing en de unieke",
-      "subscribe": "Abonneer Nu"
+      "subscribe": "Abonneer Nu",
+
+      "form_submit_success": "Formulier succesvol verzonden",
+      "close": "Sluiten"
     },
     "service": {
       "intro": "Succes begint met de juiste match",
@@ -410,7 +416,10 @@
       "submit": "Jetzt senden",
       "ready_to_power": "Bereit, Ihre Einsparungen und Zuverlässigkeit zu steigern?",
       "cta_description": "Fühlen Sie sich frei, diesen Absatz anzupassen, um die spezifischen Dienstleistungen Ihres IT-Lösungsanbieters und das Einzigartige besser widerzuspiegeln",
-      "subscribe": "Jetzt abonnieren"
+      "subscribe": "Jetzt abonnieren",
+
+      "form_submit_success": "Formular erfolgreich gesendet",
+      "close": "Schließen"
     },
     "service": {
       "intro": "Bei GlobalHire Group verbinden wir Sie mit genau den IT-Fachkräften, die Sie brauchen – auf die Weise, die Sie brauchen. Das bieten wir an:",
@@ -581,7 +590,10 @@
       "submit": "Soumettre maintenant",
       "ready_to_power": "Prêt à augmenter vos économies et votre fiabilité ?",
       "cta_description": "N'hésitez pas à personnaliser ce paragraphe pour mieux refléter les services spécifiques offerts par votre solution informatique et l'unique",
-      "subscribe": "Abonnez-vous maintenant"
+      "subscribe": "Abonnez-vous maintenant",
+
+      "form_submit_success": "Formulaire soumis avec succès",
+      "close": "Fermer"
     },
     "service": {
       "intro": "Chez GlobalHire Group, nous vous mettons en relation avec les talents IT dont vous avez besoin, exactement comme vous en avez besoin. Voici ce que nous proposons :",

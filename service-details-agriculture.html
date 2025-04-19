@@ -664,15 +664,21 @@
 
           <div class="col-lg-6">
             <div class="subscribe-area">
-              <form action="#">
-                <input type="email" placeholder="Email Address" />
+              <form action="#" id="subscribe-form">
+                <input type="email" placeholder="Email" />
                 <div class="button">
-                  <button type="submit" class="theme-btn1" lang="lang-home-subscribe">
+                  <button lang="lang-home-subscribe" type="submit" id="submit-button" class="theme-btn1">
                     Subscribe Now
                     <span><i class="fa-solid fa-arrow-right"></i></span>
                   </button>
                 </div>
               </form>
+              <div id="success-popup" class="popup hidden">
+                <div class="popup-content">
+                  <p lang="lang-home-form_submit_success">Form submitted successfully!</p>
+                  <button lang="lang-home-close" id="close-popup">Close</button>
+                </div>
+              </div>
             </div>
           </div>
         </div>
